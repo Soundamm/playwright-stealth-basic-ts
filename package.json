@@ -27,5 +27,8 @@
     "scripts": {
     "start": "node getFinalUrl-playwright.js",
     "install-browsers": "npx playwright install chromium"
-  }
+  },
+  "scripts": {
+  "start": "npm run build && node dist/server.js",
+}
 }
